@@ -18,7 +18,50 @@ padding: 10px;
     background-color: skyblue;
 }
 
+.login{
+  margin-left: 40%;
+  margin-top: 100px;
+}
+.inputbox{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid skyblue;
+}
+.nav-right{
+  text-align: right;
+}
+.logoi{
+  height: 41px;
+  float: left;
+  margin-left: 3px;
+ 
+}
 
+.register{
 
+  margin-left: 40%;
+}
 
+.btn{
+  background-color: skyblue;
+  border-color: skyblue;
+  border-radius: 10%;
+  margin-left: 10px;
+}
 
+.profilepic img {
+  width: 300px;
+  height: 500px;
+}
+
+.img{
+  padding: 20px;
+  border-radius: 50px;
+  height: max-content;
+  width: max-content;
+}
+.containerp{
+  display: flex;
+}
