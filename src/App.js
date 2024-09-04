@@ -6,6 +6,9 @@ import Signup from "./components/signup.js";
 import Profile from "./components/profile.js";
 import PrivateComponents from "./components/privateComponents.js";
 import Login from "./components/Login.js"
+import AddProduct from "./components/AddProduct.js"
+import Productlist from "./components/Productlist.js";
+import UpdateProduct from "./components/UpdateProduct.js";
 function App() {
   return (
     <div className="App">
@@ -13,9 +16,9 @@ function App() {
       <Nav/>
       <Routes>
         <Route element={<PrivateComponents/>}>
-        <Route path="/" element={<h1>Product listing components</h1>}/>
-        <Route path="/add" element={<h1> Add Product </h1>}/>
-        <Route path="/update" element={<h1>Product listing update</h1>}/>
+        <Route path="/" element={<Productlist/>}/>
+        <Route path="/add" element={<AddProduct/>}/>
+        <Route path="/update/:id" element={<UpdateProduct/>}/>
         <Route path="/logout" element={<h1>get out</h1>}/>
         <Route path="/profile" element={<Profile/>}/>
         </Route>

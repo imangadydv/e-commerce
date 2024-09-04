@@ -11,11 +11,14 @@ padding: 10px;
   text-decoration: none;
 }
 .footer{
+   
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
   position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    background-color: skyblue;
+  bottom: 0;
+  width: 100%;
 }
 
 .login{
@@ -38,8 +41,25 @@ padding: 10px;
   margin-left: 3px;
  
 }
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
 
-.register{
+.product-card h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.product-card p {
+  margin: 4px 0;
+}
+
+
+.register ,.product{
 
   margin-left: 40%;
 }
@@ -64,4 +84,17 @@ padding: 10px;
 }
 .containerp{
   display: flex;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+  height: 35px;
 }
